@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Healthboard - Track your progress and never lose motivation again</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_container">
+            <a href="index.html">
+                <img src="img/logo_header.png" alt="logo">
+            </a>
+            <div>
+                <a href="index.html" id="active">
+                    <img src="img/icon_home.png" alt="home icon">
+                    Chart
+                </a>
+                <a href="s_account.html">
+                    <img src="img/icon_settings.png" alt="settings icon">
+                    Settings
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="s1">
+                <h2>Progression chart</h2>
+            </section>
+        </article>
+        <article class="a2">
+            <section class="s2">
+                <h2>Measurements</h2>
+                <form action="#" method="post">
+                    <div class="flex_container">
+                        <div>
+                            <label for="height">Height <span>(cm)</span></label>
+                            <input type="number" list="height" class="input1" placeholder="0">
+                        </div>
+                        <div>
+                            <label for="weight">Weight <span>(kg)</span></label>
+                            <input type="number" list="weight" class="input1" placeholder="0">
+                        </div>
+                        <div>
+                            <label for="waist">Waist <span>(cm)</span></label>
+                            <input type="number" list="waist" class="input1" placeholder="0">
+                        </div>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=RnpOtJJ6D8Q" class="link" target="blank">How to measure correctly?</a>
+                    <input type="submit" class="calculate" value="Calculate">
+                </form>
+            </section>
+            <section class="s3">
+                <h2>Report</h2>
+                <div class="s3_flex">
+                    <div class="left">
+                        <p>Body Fat:</p>
+                        <p>Lean Body Mass:</p>
+                        <p>Body Mass Index:</p>
+                        <p>Basal Metabolic Rate:</p>
+                        <p>Waist/Height ratio:</p>
+                    </div>
+                    <div class="right">
+                        <output>15.8% (15.2 kg)</output>
+                        <output>0 kg</output>
+                        <output>29.0 kg/m2</output>
+                        <output>1596.25 kcal<output>
+                            <output>0.49</output>
+                        </div>
+                    </div>
+                </section>
+        </article>
+    </main>
+    
+</body>
+</html>

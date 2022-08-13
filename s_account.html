@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Healthboard - Track your progress and never lose motivation again</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_container">
+            <a href="index.html">
+                <img src="img/logo_header.png" alt="logo">
+            </a>
+            <div>
+                <a href="index.html">
+                    <img src="img/icon_home.png" alt="home icon">
+                    Chart
+                </a>
+                <a href="s_account.html" id="active">
+                    <img src="img/icon_settings.png" alt="settings icon">
+                    Settings
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="as">
+            <section class="v_nav">
+                <div class="links">
+                    <a href="s_account.html" class="v_nav_link" id="active2">
+                        Account
+                    </a>
+                    <a href="s_change_password.html" class="v_nav_link" id="">
+                        Change password
+                    </a>
+                    <a href="#" class="v_nav_link" id="">
+                        Notifications
+                    </a>
+                    <a href="#" class="v_nav_link" id="">
+                        Get premium
+                    </a>
+                </div>
+                <a href="login.html" class="v_nav_link_logout">
+                    Log out
+                </a>
+            </section>
+            <section class="menu_display">
+                
+                <div class="inputs">
+                    <h3>Account</h3>
+                    <div>
+                    <label for="username" class="label2">Username <span>0/45</span></label>
+                        <input type="text" list="username" class="input2" value="username">
+                    </div>
+                    <div>
+                    <label for="email" class="label2">Email</label>
+                        <input type="email" list="email" class="input2" value="example@mail.com">
+                    </div>
+                    <div>
+                    <label for="gender" class="label2">Gender</label>
+                        <div class="flex_checkboxes">
+                            <div class="checkbox">
+                                <input type="checkbox" name="gender" value="male" id="male" class="box">
+                                <img src="img/male.png" alt="male gender icon">
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="gender" value="female" class="box">
+                                <img src="img/female.png" alt="female gender icon">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="birth" class="label2">Date of birth</label>
+                        <input type="date" list="year" class="input2">
+                    </div>
+                </div>
+                <input type="submit" class="save_changes" value="Save changes">
+                
+            </section>
+        </article>
+    </main>
+</body>
+</html>
